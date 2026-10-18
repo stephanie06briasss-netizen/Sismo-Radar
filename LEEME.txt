@@ -1,12 +1,1 @@
-SISMO RADAR — versión 0.1 (prototipo)
-
-1. Esta carpeta es una PWA estática. Para instalarla en Samsung, hay que publicarla en un sitio HTTPS (por ejemplo, GitHub Pages). Abrir index.html desde archivos locales NO permite instalarla correctamente.
-2. En GitHub, crea un repositorio nuevo, sube el CONTENIDO de esta carpeta a la raíz, activa Settings > Pages > Deploy from a branch > main / root. Espera la URL https://TUUSUARIO.github.io/TUREPOSITORIO/.
-3. Abre la URL en Chrome en Samsung, menú ⋮ > Instalar aplicación o Agregar a pantalla de inicio.
-4. La fuente de datos ACTIVA es USGS, registros de los últimos siete días, actualización cada 60 segundos mientras la página esté visible. EMSC aún NO está conectado.
-5. No hay notificaciones push en segundo plano. Para ello hará falta un servidor, registro de dispositivos, permisos y pruebas. Tampoco hay predicción ni alerta temprana.
-6. Los países se asignan mediante recuadros geográficos aproximados. Los eventos en frontera o costa pueden quedar asignados imperfectamente. El filtro 'Todos' significa todos los publicados por USGS, no todos los ocurridos.
-7. El mapa es un esquema de coordenadas, no cartografía detallada.
-8. Una vivienda dañada requiere evaluación de seguridad. No dependas de esta app para decidir si evacuar.
-
-Datos: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+Sismo Radar v2: mapa Leaflet/OpenStreetMap; consultas USGS y EMSC (EMSC puede fallar por CORS); filtros de 1, 7 y 30 días. Subir el contenido de esta carpeta a la raíz del repositorio GitHub Pages, reemplazando archivos del mismo nombre. La app NO es alerta temprana ni envía push. Requiere Internet para los mapas y datos.
